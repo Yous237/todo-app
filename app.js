@@ -13,3 +13,5 @@ function render() {
   const list = document.getElementById('taskList');
   list.innerHTML = tasks.map(t => <li>${t}</li>).join('');
 }
+
+console.log("hello world")
